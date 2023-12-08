@@ -334,7 +334,7 @@
             <button
                 class="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
                 id="filterDropDown" data-dropdown-toggle="dropdown">
-                <i class="fa-solid fa-sort text-white -ml-1 mr-2"></i>FILTER
+                <i class="fa-solid fa-sort text-white -ml-1 mr-2 md:inline-block hidden"></i>FILTER
             </button>
     
             <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
@@ -359,7 +359,7 @@
                 <div class="relative w-full">
                     <input type="text" id="search-username" name="username"
                         class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-l-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                        placeholder="Cari Pengguna..." required>
+                        placeholder="Cari Peminjaman..." required>
                 </div>
                 <button type="submit"
                     class="p-3 ms-2 text-sm font-medium text-white bg-blue-700 rounded-r-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
